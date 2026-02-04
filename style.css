@@ -80,7 +80,7 @@ header{
     margin: 0 auto;
 }
 
-.main1 .mainimages{
+.mainimages{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 24px;
@@ -123,8 +123,25 @@ header{
 @media screen and (max-width: 576px) {
     .navsection, .nav-ul{
         flex-direction: column;
+        gap: 20px;
     }
     .bannerimage img{
         width: 100%;
+    }
+    .main1{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .mainimages{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .mainimages img{
+        width: 100%;
+    }
+    .Our-features{
+        text-align: center;
+    }
+    #btn-explore{
+        margin: 0 auto;
     }
 }
