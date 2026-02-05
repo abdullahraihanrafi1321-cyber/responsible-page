@@ -78,6 +78,7 @@ header{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    margin-bottom: 130px;
 }
 
 .mainimages{
@@ -109,6 +110,64 @@ header{
 }
 #btn-explore{
     margin-left: 0px;
+}
+.mainmiddle{
+    max-width: 1440px;
+    display: flex;
+    gap: 146px;
+    margin: 0 auto;
+}
+.middleleft{
+    max-width: 587px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.middleleft h2{
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+.middleleft p{
+    font-size: 1rem;
+    color: #727272;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.featurecard{
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+.featurecard h4{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #131313;
+}
+.featurecard p{
+    font-size: 1rem;
+    color: #727272;
+    line-height: 26px;
+}
+.middleleftimage{
+    max-width: 708px;
+}
+#middlebtn h3{
+    font-size: 4rem;
+}
+#middlebtn p{
+    font-size: 1.25rem;
+}
+#middlebtn{
+    width: 342px;
+    height: 200px;
+    margin-top: -123px;
+    margin-left: -92px;
 }
 /* .bannerimage img{
     width: 100%;
