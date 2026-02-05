@@ -180,7 +180,7 @@ header{
 
 
 @media screen and (max-width: 576px) {
-    .navsection, .nav-ul{
+    .navsection, .nav-ul, .mainmiddle{
         flex-direction: column;
         gap: 20px;
     }
@@ -194,13 +194,16 @@ header{
     .mainimages{
         grid-template-columns: repeat(2, 1fr);
     }
-    .mainimages img{
+    .mainimages img, .middleleftimage img{
         width: 100%;
     }
     .Our-features{
         text-align: center;
     }
-    #btn-explore{
+    #btn-explore, #middlebtn{
         margin: 0 auto;
+    }
+    .mainmiddle{
+        margin: 0 4px;
     }
 }
