@@ -30,6 +30,7 @@ header{
 .navsection{
     justify-content: space-between;
     max-width: 1440px;
+    width: 90%;
     align-items: center;
     margin: 0 auto;
     margin-bottom: 102px;
@@ -50,6 +51,7 @@ header{
 }
 .textsection{
     max-width: 868px;
+    width: 54.25%;
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
@@ -81,11 +83,13 @@ header{
 }
 .bannerimage{
     max-width: 1440px;
+    width: 90%;
     margin: 50px auto;
 }
 
 .main1{
     max-width: 1320px;
+    width: 82.5%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -124,6 +128,7 @@ header{
 }
 .mainmiddle{
     max-width: 1440px;
+    width: 90%;
     display: flex;
     gap: 146px;
     margin: 0 auto;
