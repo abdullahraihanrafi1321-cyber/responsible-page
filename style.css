@@ -8,6 +8,17 @@
   font-optical-sizing: auto;
 }
 
+.btn-all:hover{
+    background-color: #131313;
+    border: 2.5px solid rgb(111, 9, 9);
+    cursor: pointer;
+}
+.featurecard:hover{
+    background-color: antiquewhite;
+}
+.ourcard:hover{
+    background-color: antiquewhite;
+}
 /* shared style */
 .display-flex{
     display: flex;
@@ -182,8 +193,6 @@ header{
     color: #727272;
     font-size: 1rem;
     line-height: 26px;
-    max-width: 542px;
-    text-align: justify;
     margin-top: 24px;
 }
 .ourtext{
@@ -215,8 +224,54 @@ header{
     padding: 0px;
 }
 .ourcard p{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #727272;
+}
+.footer1{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+}
+.footer1 h4{
+    font-size: 2.8rem;
+    color: #131313;
+    font-weight: bold;
+    margin-top: 180px;
+}
+.footer1 p{
     font-size: 1rem;
     color: #727272;
+    max-width: 542px;
+    text-align: center;
+    line-height: 26px;
+}
+.ftcard{
+    display: flex;
+    gap: 154.67px;
+    margin-bottom: 130px;
+}
+.ftcard img{
+    filter: grayscale(100%);
+}
+.footer2{
+    max-width: 1440px;
+    height: 100px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 216px;
+    border-radius: 8px;
+}
+.footer2 p{
+    font-size: 1.25rem;
+    color: #727272;
+    text-align: center;
 }
 /* .bannerimage img{
     width: 100%;
@@ -229,7 +284,7 @@ header{
 
 
 @media screen and (max-width: 576px) {
-    .navsection, .nav-ul, .mainmiddle{
+    .navsection, .nav-ul, .mainmiddle, .ftcard{
         flex-direction: column;
         gap: 20px;
     }
@@ -260,5 +315,34 @@ header{
     }
     .our-features{
         padding: 5px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .bannerimage img, .mainimages img, .middleleftimage img{
+        width: 100%;
+    }
+    .navsection, .mainmiddle, .ftcard{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .main1{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        text-align: center;
+    }
+    .lowercard{
+        gap: 10px;
+        padding: 5px;
+    }
+    .mainimages{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #btn-explore, #middlebtn, .middleleft, .middleleftimage, .lowercard{
+        margin: 0 auto;
+    }
+    .ourtext{
+        text-align: center;
     }
 }
